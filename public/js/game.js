@@ -364,7 +364,7 @@ function update () {
     currentSpeed = currentSpeed + 5;
     player.body.velocity.setTo(player.body.velocity + 100);
   }
-  currentSpeed ++;
+  currentSpeed++;
 
   if (wsad.left.isDown) {
     player2.angle -= 5;

@@ -10,7 +10,6 @@ var RemotePlayer = function (index, game, player, startX, startY) {
   this.alive = true
   game.physics.startSystem(Phaser.Physics.ARCADE);
 
-
   this.player = game.add.image(x, y, 'enemy')
   game.physics.arcade.enable(this.player);
 
