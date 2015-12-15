@@ -1,6 +1,6 @@
 /* global Phaser RemotePlayer io */
 console.log(window.document.body.offsetWidth);
-var game = new Phaser.Game(1366, 1024, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
+var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
 
 var randomizer = function (min, max) {
  return Math.floor(Math.random()*((max-min) +1)) + min;
