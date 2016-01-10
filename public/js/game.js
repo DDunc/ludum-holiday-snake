@@ -47,7 +47,6 @@ function preload () {
   game.load.image('earth', 'assets/ice.png');
   game.load.image('apple', 'assets/apple.png');
   game.load.image('dude', 'assets/red_elf.png');
-  game.load.image('enemy', 'assets/green_elf.png');
   game.load.audio('scream', 'assets/scream.mp3');
   game.load.audio('pointred', 'assets/pointred.mp3');
   game.load.audio('pointgreen', 'assets/pointgreen.mp3');
